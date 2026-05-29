@@ -1,5 +1,6 @@
 ---
 name: vuln-analyst-web
+model: deepseek/deepseek-chat-v3
 description: Agente experto en detección de vulnerabilidades lógicas y de seguridad en aplicaciones web (OWASP Top 10). Analiza de manera quirúrgica formularios, cookies, parámetros y flujos lógicos basándose en las tecnologías detectadas. Motorizado por Claude.
 ---
 

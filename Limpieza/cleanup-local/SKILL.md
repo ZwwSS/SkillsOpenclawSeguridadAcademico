@@ -1,5 +1,6 @@
 ---
 name: cleanup-local
+model: meta-llama/llama-3.3-70b-instruct
 description: Agente que organiza, cifra y archiva las evidencias en el Kali del operador. Mueve los outputs útiles a Informe/, cifra los originales con GPG/age, borra de forma segura los temporales en /tmp/exploits/ y deja registro auditable del proceso. Optimizado para Cerebras por ser una secuencia mecánica de operaciones de archivos sin razonamiento profundo.
 ---
 

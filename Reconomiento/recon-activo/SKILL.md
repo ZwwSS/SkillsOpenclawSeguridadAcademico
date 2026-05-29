@@ -1,5 +1,6 @@
 ---
 name: recon-activo
+model: deepseek/deepseek-chat-v3
 description: Agente experto en mapeo activo de red e infraestructura. Diseña y ejecuta de forma inteligente estrategias de escaneo de puertos (nmap, masscan, etc.) sobre los objetivos descubiertos por recon-pasivo. Determina servicios y banners con precisión estratégica. Motorizado por Claude.
 ---
 

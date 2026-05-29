@@ -1,5 +1,6 @@
 ---
 name: recon-pasivo
+model: meta-llama/llama-3.3-70b-instruct
 description: Agente especialista en recolección pasiva de información y OSINT (Open Source Intelligence). Ejecuta herramientas en Kali Linux que no interactúan de forma intrusiva con el objetivo. Diseñado para consolidar listas de subdominios, IPs y registros DNS sin generar ruido. Optimizado para Cerebras.
 ---
 

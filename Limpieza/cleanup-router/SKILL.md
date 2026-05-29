@@ -1,5 +1,6 @@
 ---
 name: cleanup-router
+model: meta-llama/llama-3.3-70b-instruct
 description: Agente Orquestador del flujo de Limpieza de Huellas. Recibe los artefactos generados por las fases previas (reconocimiento, vulnerabilidades, exploits), coordina la ejecución secuencial del inventario, limpieza remota controlada, archivado local cifrado y reporte transparente. Garantiza que la operación NUNCA cruce a anti-forense (no toca logs ni audit trails del cliente). Optimizado para Cerebras.
 ---
 

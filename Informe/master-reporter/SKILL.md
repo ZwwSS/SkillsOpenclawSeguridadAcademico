@@ -1,5 +1,6 @@
 ---
 name: master-reporter
+model: deepseek/deepseek-chat-v3
 description: Agente maestro encargado de la generación del Informe Final de Auditoría. Recopila todos los hallazgos validados de las fases de Reconocimiento y Vulnerabilidades para redactar un documento ejecutivo y técnico completo, profesional y accionable. Optimizado para Cerebras.
 ---
 

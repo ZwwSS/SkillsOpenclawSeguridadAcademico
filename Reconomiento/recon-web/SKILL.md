@@ -1,5 +1,6 @@
 ---
 name: recon-web
+model: deepseek/deepseek-chat-v3
 description: Agente analista web y de perfilado tecnológico. Analiza de forma específica aplicaciones y servicios web activos detectados en las fases anteriores. Determina tecnologías de desarrollo, CMS, cabeceras HTTP de seguridad y descubre archivos o directorios interesantes de forma sigilosa. Motorizado por Claude.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: cleanup-inventory
+model: deepseek/deepseek-chat-v3
 description: Agente que reconstruye el inventario completo de artefactos generados durante todo el pentest. Lee los JSON de reconocimiento, vulnerabilidades y exploits para identificar qué archivos se subieron, qué procesos/listeners se abrieron, qué sesiones quedaron activas y qué configuraciones se modificaron, separando artefactos remotos (en targets) de locales (en Kali). Optimizado para Claude por requerir correlación analítica entre múltiples fuentes.
 ---
 

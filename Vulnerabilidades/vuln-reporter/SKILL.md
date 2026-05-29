@@ -1,5 +1,6 @@
 ---
 name: vuln-reporter
+model: meta-llama/llama-3.3-70b-instruct
 description: Agente redactor y formateador de informes de vulnerabilidades. Toma el archivo estructurado validado y genera un reporte Markdown estético, legible y altamente profesional en la carpeta compartida "Informe". Optimizado para Cerebras.
 ---
 

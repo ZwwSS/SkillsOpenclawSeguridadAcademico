@@ -1,5 +1,6 @@
 ---
 name: recon-reporter
+model: meta-llama/llama-3.3-70b-instruct
 description: Agente redactor y formateador de informes técnicos de reconocimiento. Toma el archivo consolidado estructurado y genera informes Markdown estéticos y listos para leer por humanos en la carpeta "Informe". Optimizado para Cerebras.
 ---
 

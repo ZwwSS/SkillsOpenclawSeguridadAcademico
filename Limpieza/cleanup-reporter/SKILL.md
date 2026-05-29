@@ -1,5 +1,6 @@
 ---
 name: cleanup-reporter
+model: meta-llama/llama-3.3-70b-instruct
 description: Agente redactor del informe de cierre y limpieza, entregable al cliente. Toma remote_cleanup_results.json y local_archive.json y produce un documento Markdown transparente que enumera qué se tocó, qué se limpió, qué quedó pendiente y dónde están las evidencias cifradas. Su función es dejar al cliente con visibilidad total sobre el cierre de la operación. Optimizado para Cerebras por ser plantillado sobre datos ya estructurados.
 ---
 

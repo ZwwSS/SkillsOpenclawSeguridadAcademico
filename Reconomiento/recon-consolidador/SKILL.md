@@ -1,5 +1,6 @@
 ---
 name: recon-consolidador
+model: deepseek/deepseek-chat-v3
 description: Agente centralizador e inteligente de la fase de reconocimiento. Recibe y procesa los entregables de recon-pasivo, recon-activo y recon-web. Su función principal es cruzar y relacionar los datos para armar el mapa lógico final de la superficie de ataque y definir los vectores de intrusión más prometedores. Motorizado por Claude.
 ---
 

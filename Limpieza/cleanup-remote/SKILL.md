@@ -1,5 +1,7 @@
 ---
 name: cleanup-remote
+model: deepseek/deepseek-chat-v3
+model_upgrade_premium: anthropic/claude-sonnet-4.5  # opcional: usar Sonnet en producción real para mejor juicio antes de tocar sistemas del cliente
 description: Agente que elimina los artefactos del operador en los sistemas del cliente, uno por uno, con aprobación humana individual para cada acción. Verifica existencia antes y ausencia después. Prohibido tocar logs, audit trails o cualquier archivo no trazado a una acción del pentester. Optimizado para Claude por requerir juicio en tiempo real sobre canal de acceso, verificación post-borrado y detección de efectos colaterales.
 ---
 

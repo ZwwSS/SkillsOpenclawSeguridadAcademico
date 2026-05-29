@@ -1,5 +1,6 @@
 ---
 name: recon-router
+model: meta-llama/llama-3.3-70b-instruct
 description: Agente Orquestador y enrutador del flujo de Reconocimiento. Coordina la ejecución secuencial de los agentes especializados (pasivo, activo, web, consolidador y reporter) pasándoles los parámetros necesarios y controlando la transición entre fases. Optimizado para latencia ultra-baja en Cerebras.
 ---
 

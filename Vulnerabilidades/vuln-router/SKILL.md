@@ -1,5 +1,6 @@
 ---
 name: vuln-router
+model: meta-llama/llama-3.3-70b-instruct
 description: Agente Orquestador y enrutador del flujo de Análisis de Vulnerabilidades. Recibe la lista consolidada de activos, coordina la ejecución secuencial de los agentes especializados (escáner de red, analista web, evaluador de riesgos y reporter) y controla las transiciones del flujo. Optimizado para Cerebras.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: vuln-evaluator
+model: deepseek/deepseek-chat-v3
 description: Agente de validación inteligente de vulnerabilidades, clasificación de severidad y diseño de remediación. Filtra falsos positivos, calcula la puntuación CVSS real, correlaciona vulnerabilidades en cadenas de ataque complejas y propone estrategias defensivas. Motorizado por Claude.
 ---
 

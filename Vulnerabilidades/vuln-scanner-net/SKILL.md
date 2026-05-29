@@ -1,5 +1,6 @@
 ---
 name: vuln-scanner-net
+model: meta-llama/llama-3.3-70b-instruct
 description: Agente de escaneo automatizado de vulnerabilidades de red e infraestructura. Diseña y ejecuta de forma inteligente escaneadores en Kali Linux (nuclei, nmap vuln scripts). Filtra e interpreta salidas crudas para generar reportes estructurados sin consumir tokens innecesarios. Optimizado para Cerebras.
 ---
 
