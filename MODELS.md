@@ -38,15 +38,15 @@ Agentes:
 
 ## Upgrade Opcional para Producción Real
 
-3 agentes tienen anotado `model_upgrade_premium: anthropic/claude-sonnet-4.5` en su frontmatter. Activar esta sustitución **solo** cuando operes contra clientes reales con alto coste de error:
+3 agentes tienen anotado `model_upgrade_premium: deepseek/deepseek-r1` en su frontmatter. Es el modelo de **razonamiento** (chain-of-thought) de DeepSeek, ~$0.55 in / $2.19 out por 1M tokens. ~6× más barato que Claude Sonnet y aporta razonamiento estructurado, ideal para juicio de seguridad. Activar esta sustitución **solo** cuando operes contra clientes reales con alto coste de error:
 
 | Agente | Por qué upgrade | Coste adicional aprox. |
 |---|---|---|
-| `exploit-validator` | Auditar PoC públicos para detectar backdoors. Un falso negativo aquí = ejecutas malware del autor original contra el target. | ~$0.05 por pentest |
-| `exploit-executor` | Decide abortar ante output anómalo en tiempo real. Un mal juicio = incidente operativo con el cliente. | ~$0.10 por pentest |
-| `cleanup-remote` | Decide qué tocar en sistemas del cliente. Un mal juicio = borras algo que no era tuyo. | ~$0.05 por pentest |
+| `exploit-validator` | Auditar PoC públicos para detectar backdoors. Un falso negativo aquí = ejecutas malware del autor original contra el target. | ~$0.01 por pentest |
+| `exploit-executor` | Decide abortar ante output anómalo en tiempo real. Un mal juicio = incidente operativo con el cliente. | ~$0.02 por pentest |
+| `cleanup-remote` | Decide qué tocar en sistemas del cliente. Un mal juicio = borras algo que no era tuyo. | ~$0.01 por pentest |
 
-**Coste con los 3 upgrades:** ~$0.35 por pentest. Aún ~42 pentests con $15.
+**Coste con los 3 upgrades:** ~$0.19 por pentest. Aún ~78 pentests con $15.
 
 ---
 
